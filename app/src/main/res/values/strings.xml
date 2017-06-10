@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">StochiometryApp</string>
+    <string name="elementChooser">Type in an element</string>
+    <string name="description">Please type in an element above, as it requests, like damn, didn\'t think I\'d have to explain this one to you.</string>
+</resources>
