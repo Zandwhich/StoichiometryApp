@@ -186,7 +186,7 @@ public class Elements {
 	public final static Atom cerium = new Atom("Cerium", "Ce", 58, 140.12, false);
 	
 	/** Praesodymium */
-	public final static Atom praesodymium = new Atom("Praesodymium", "Pr", 59, 140.91, false);
+	public final static Atom praesodymium = new Atom("Praseodymium", "Pr", 59, 140.91, false);
 	
 	/** Neodymium */
 	public final static Atom neodymium = new Atom("Neodymium", "Nd", 60, 144.24, false);
