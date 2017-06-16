@@ -3,6 +3,7 @@ package com.example.alex.stochiometryapp;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TextView;
 
 import com.example.alex.util.*;
@@ -21,7 +22,8 @@ public class ElementInfo extends AppCompatActivity {
 
         elementInfo = (TextView) findViewById(R.id.elementInfo);
 
-        for (Atom element: Elements.allElements) {
+        for (Atom element: Elements_OLD.allElements) {
+            Log.e("Debug", element.NUMBER + ": " + element.NAME);
             if (element.NAME.equals(input)) {
                 elementInfo.setText(input);
                 break;

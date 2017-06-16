@@ -9,7 +9,7 @@ import com.example.alex.util.Atom;
 public class Radon extends Atom {
 
     public Radon() {
-        super("Radon", "Rn", 86, 222, false)''
+        super("Radon", "Rn", 86, 222, false);
     }//end Radon()
 
 }//end Radon

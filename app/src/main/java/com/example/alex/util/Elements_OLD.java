@@ -7,7 +7,7 @@ import com.example.alex.stochiometryapp.BuildConfig;
  * @author Alex
  *
  */
-public class Elements {
+public class Elements_OLD {
 
 	public final static Atom[] allElements = new Atom[118];
 
@@ -365,7 +365,7 @@ public class Elements {
 	/** Oganesson */
 	public final static Atom oganesson = new Atom("Oganesson", "Og", 118, 294, false);
 
-	public Elements() {
+	public Elements_OLD() {
 		allElements[hydrogen.NUMBER - 1] = hydrogen;
 		allElements[helium.NUMBER - 1] = helium;
 		allElements[lithium.NUMBER - 1] = lithium;
@@ -423,6 +423,7 @@ public class Elements {
 		allElements[cesium.NUMBER - 1] = cesium;
 		allElements[barium.NUMBER - 1] = barium;
 		allElements[lanthanum.NUMBER - 1] = lanthanum;
+		allElements[cerium.NUMBER - 1] = cerium;
 		allElements[praesodymium.NUMBER - 1] = praesodymium;
 		allElements[neodymium.NUMBER - 1] = neodymium;
 		allElements[promethium.NUMBER - 1] = promethium;
@@ -483,5 +484,5 @@ public class Elements {
 		allElements[livermorium.NUMBER - 1] = livermorium;
 		allElements[tennessine.NUMBER - 1] = tennessine;
 		allElements[oganesson.NUMBER - 1] = oganesson;
-	}//end Elements()
+	}//end Elements_OLD()
 }//end class Atoms

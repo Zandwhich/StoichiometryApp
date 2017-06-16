@@ -9,7 +9,7 @@ import com.example.alex.util.Atom;
 public class Nickel extends Atom {
 
     public Nickel() {
-        super("Nickel", "Ni", 28. 58.96, false);
+        super("Nickel", "Ni", 28, 58.96, false);
     }//end Nickel()
 
 }//end Nickel

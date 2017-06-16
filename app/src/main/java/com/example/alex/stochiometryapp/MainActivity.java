@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     EditText elementChooser;
     TextView descriptionText;
 
-    Elements elements;
+    Elements_OLD elementsOLD;
 
     public static final String ELEMENT_INFO_MESSAGE = "com.example.alex.stochiometryapp.MESSAGE";
 
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         doneButton = (Button) findViewById(R.id.doneButton);
         elementChooser = (EditText) findViewById(R.id.elementChooser);
         descriptionText = (TextView) findViewById(R.id.descriptionView);
-        elements = new Elements();
+        elementsOLD = new Elements_OLD();
     }
 
     public void doneClicked(View view) {
