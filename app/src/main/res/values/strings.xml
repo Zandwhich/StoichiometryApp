@@ -2,4 +2,13 @@
     <string name="app_name">StochiometryApp</string>
     <string name="elementChooser">Type in an element</string>
     <string name="description">Please type in an element above, as it requests, like damn, didn\'t think I\'d have to explain this one to you.</string>
+    <string name="title_activity_navigation">Stochiometry App</string>
+    <string name="title_activity_main">Main Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="camera">Import</string>
+
+    <string name="action_settings">Settings</string>
 </resources>
