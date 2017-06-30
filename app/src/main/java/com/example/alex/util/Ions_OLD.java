@@ -5,7 +5,7 @@ package com.example.alex.util;
  * @author Alex
  *
  */
-public class Ions {
+public class Ions_OLD {
 	/* Positive */
 	
 	/** Cesium */
@@ -316,4 +316,4 @@ public class Ions {
 			-1,
 			Elements_OLD.vanadium.MASS + Elements_OLD.oxygen.MASS * 3);
 
-}//end class Ions
+}//end class Ions_OLD

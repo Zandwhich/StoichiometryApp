@@ -1,35 +1,25 @@
 package com.example.alex.util;
 
 /**
- * A class that defines Ions. (IDK)
+ * A class that defines Ions_OLD. (IDK)
  * @author Alex
  *
  */
-public class Ion {
-	/** The ion's name. */
-	public final String NAME;
-	
-	/** The ion's symbol. */
-	public final String SYMBOL;
+public abstract class Ion extends Molecule{
 	
 	/** The ion's charge. */
 	public final int CHARGE;
 	
-	/** The ion's mass. */
-	public final double MASS;
-	
 	/**
 	 * The only constructor for the Ion class.
-	 * @param iName The ion's name.
-	 * @param iSymbol The ion's symbol.
-	 * @param iCharge The ion's charge.
-	 * @param iMass The ion's mass.
+	 * @param name The ion's name.
+	 * @param symbol The ion's symbol.
+	 * @param atoms The atoms that make up the ion
+	 * @param charge The ion's charge.
 	 */
-	public Ion(String iName, String iSymbol, int iCharge, double iMass){
-		NAME = iName;
-		SYMBOL = iSymbol;
-		CHARGE = iCharge;
-		MASS = iMass;
+	public Ion(String name, String symbol, Atom[] atoms, int charge){
+		super(name, symbol, atoms);
+		this.CHARGE = charge;
 	}//end Ion()
 
 }//end class Ion
