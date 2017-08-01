@@ -1,5 +1,32 @@
 package com.example.alex.util;
 
+import com.example.alex.util.Ions.Aluminum_Ion;
+import com.example.alex.util.Ions.Barium_Ion;
+import com.example.alex.util.Ions.Bismuth_3_Ion;
+import com.example.alex.util.Ions.Cadmium_Ion;
+import com.example.alex.util.Ions.Calcium_Ion;
+import com.example.alex.util.Ions.Cerium_3_Ion;
+import com.example.alex.util.Ions.Cesium_Ion;
+import com.example.alex.util.Ions.Cobalt_2_Ion;
+import com.example.alex.util.Ions.Copper_1_Ion;
+import com.example.alex.util.Ions.Copper_2_Ion;
+import com.example.alex.util.Ions.Hydrogen_Ion;
+import com.example.alex.util.Ions.Iron_2_Ion;
+import com.example.alex.util.Ions.Lead_2_Ion;
+import com.example.alex.util.Ions.Lithium_Ion;
+import com.example.alex.util.Ions.Magnesium_Ion;
+import com.example.alex.util.Ions.Manganese_2_Ion;
+import com.example.alex.util.Ions.Mercury_2_Ion;
+import com.example.alex.util.Ions.Nickel_Ion;
+import com.example.alex.util.Ions.Potassium_Ion;
+import com.example.alex.util.Ions.Rubidium_Ion;
+import com.example.alex.util.Ions.Silver_Ion;
+import com.example.alex.util.Ions.Sodium_Ion;
+import com.example.alex.util.Ions.Strontium_Ion;
+import com.example.alex.util.Ions.Thallium_1_Ion;
+import com.example.alex.util.Ions.Tin_2_Ion;
+import com.example.alex.util.Ions.Zinc_Ion;
+
 /**
  * A utility class that holds all the ions.
  * @author Alex
@@ -9,82 +36,82 @@ public class Ions_OLD {
 	/* Positive */
 	
 	/** Cesium */
-	public static Ion cesium_Ion = new Ion("Cesium", Elements_OLD.cesium.SYMBOL, 1, Elements_OLD.cesium.MASS);
+	public static Cesium_Ion cesium_ion = new Cesium_Ion();
 	
 	/** Copper(I) */
-	public static Ion copper_Ion_1 = new Ion("Copper(I)", Elements_OLD.copper.SYMBOL, 1, Elements_OLD.copper.MASS);
+	public static Copper_1_Ion copper_1_ion = new Copper_1_Ion();
 	
 	/** Thallium(I) */
-	public static Ion thallium_Ion_1 = new Ion("Thallium(I)", Elements_OLD.thallium.SYMBOL, 1, Elements_OLD.thallium.MASS);
+	public static Thallium_1_Ion thallium_1_ion = new Thallium_1_Ion();
 	
 	/** Hydrogen */
-	public static Ion hydrogen_Ion = new Ion("Hydrogen", Elements_OLD.hydrogen.SYMBOL, 1, Elements_OLD.hydrogen.MASS);
+	public static Hydrogen_Ion hydrogen_ion = new Hydrogen_Ion();
 	
 	/** Lithium */
-	public static Ion lithium_Ion = new Ion("Lithium", Elements_OLD.lithium.SYMBOL, 1, Elements_OLD.lithium.MASS);
+	public static Lithium_Ion lithium_ion = new Lithium_Ion();
 
 	/** Potassium */
-	public static Ion potassium_Ion = new Ion("Potassium", Elements_OLD.potassium.SYMBOL, 1, Elements_OLD.potassium.MASS);
+	public static Potassium_Ion potassium_ion = new Potassium_Ion();
 
 	/** Rubidium */
-	public static Ion rubidium_Ion = new Ion("Rubidium", Elements_OLD.rubidium.SYMBOL, 1, Elements_OLD.rubidium.MASS);
+	public static Rubidium_Ion rubidium_ion = new Rubidium_Ion();
 		
 	/** Silver */
-	public static Ion silver_Ion = new Ion("Silver", Elements_OLD.silver.SYMBOL, 1, Elements_OLD.silver.MASS);
+	public static Silver_Ion silver_ion = new Silver_Ion();
 		
 	/** Sodium */
-	public static Ion sodium_Ion = new Ion("Sodium", Elements_OLD.sodium.SYMBOL, 1, Elements_OLD.sodium.MASS);
+	public static Sodium_Ion sodium_ion = new Sodium_Ion();
 		
 	/** Barium */
-	public static Ion barium_Ion = new Ion("Barium", Elements_OLD.barium.SYMBOL, 2, Elements_OLD.barium.MASS);
+	public static Barium_Ion barium_ion = new Barium_Ion();
 		
 	/** Cadmium */
-	public static Ion cadmium_Ion = new Ion("Cadmium", Elements_OLD.cadmium.SYMBOL, 2, Elements_OLD.cadmium.MASS);
+	public static Cadmium_Ion cadmium_ion = new Cadmium_Ion();
 		
 	/** Calcium */
-	public static Ion calcium_Ion = new Ion("Calcium", Elements_OLD.calcium.SYMBOL, 2, Elements_OLD.calcium.MASS);
+	public static Calcium_Ion calcium_ion = new Calcium_Ion();
 		
 	/** Cobalt(II) */
-	public static Ion cobalt_Ion_2 = new Ion("Cobalt(II)", Elements_OLD.cobalt.SYMBOL, 2, Elements_OLD.cobalt.MASS);
+	public static Cobalt_2_Ion cobalt_2_ion = new Cobalt_2_Ion();
 		
 	/** Copper(II) */
-	public static Ion copper_Ion_2 = new Ion("Copper(II)", Elements_OLD.copper.SYMBOL, 2, Elements_OLD.copper.MASS);
+	public static Copper_2_Ion copper_2_ion = new Copper_2_Ion();
 		
 	/** Iron(II) */
-	public static Ion iron_Ion_2 = new Ion("Iron(II)", Elements_OLD.iron.SYMBOL, 2, Elements_OLD.iron.MASS);
-		
+	public static Iron_2_Ion iron_2_ion = new Iron_2_Ion();
+
 	/** Lead(II) */
-	public static Ion lead_Ion_2 = new Ion("Lead(II)", Elements_OLD.lead.SYMBOL, 2, Elements_OLD.lead.MASS);
+	public static Lead_2_Ion lead_2_ion = new Lead_2_Ion();
 		
 	/** Magnesium */
-	public static Ion magnesium_Ion = new Ion("Magnesium", Elements_OLD.magnesium.SYMBOL, 2, Elements_OLD.magnesium.MASS);
+	public static Magnesium_Ion magnesium_ion = new Magnesium_Ion();
 		
 	/** Manganese(II) */
-	public static Ion manganese_Ion_2 = new Ion("Manganese(II)", Elements_OLD.manganese.SYMBOL, 2, Elements_OLD.manganese.MASS);
+	public static Manganese_2_Ion manganese_2_ion = new Manganese_2_Ion();
 		
 	/** Mercury(II) */
-	public static Ion mercury_Ion_2 = new Ion("Mercury(II)", Elements_OLD.mercury.SYMBOL, 2, Elements_OLD.mercury.MASS);
+	public static Mercury_2_Ion mercury_2_ion = new Mercury_2_Ion();
 		
 	/** Nickel */
-	public static Ion nickel_Ion = new Ion("Nickel", Elements_OLD.nickel.SYMBOL, 2, Elements_OLD.nickel.MASS);
+	public static Nickel_Ion nickel_ion = new Nickel_Ion();
 		
 	/** Strontium */
-	public static Ion strontium_Ion = new Ion("Strontium", Elements_OLD.strontium.SYMBOL, 2, Elements_OLD.strontium.MASS);
+	public static Strontium_Ion strontium_ion = new Strontium_Ion();
 		
 	/** Tin(II) */
-	public static Ion tin_Ion_2 = new Ion("Tin(II)", Elements_OLD.tin.SYMBOL, 2, Elements_OLD.tin.MASS);
+	public static Tin_2_Ion tin_2_ion = new Tin_2_Ion();
 		
 	/** Zinc */
-	public static Ion zinc_Ion = new Ion("Zinc", Elements_OLD.zinc.SYMBOL, 2, Elements_OLD.zinc.MASS);
+	public static Zinc_Ion zinc_ion = new Zinc_Ion();
 		
 	/** Aluminum */
-	public static Ion aluminum_Ion = new Ion("Aluminum", Elements_OLD.aluminum.SYMBOL, 3, Elements_OLD.aluminum.MASS);
+	public static Aluminum_Ion aluminum_ion = new Aluminum_Ion();
 		
 	/** Bismuth(III) */
-	public static Ion bismuth_Ion_3 = new Ion("Bismuth(III)", Elements_OLD.bismuth.SYMBOL, 3, Elements_OLD.bismuth.MASS);
+	public static Bismuth_3_Ion bismuth_3_ion = new Bismuth_3_Ion();
 		
 	/** Cerium(III) */
-	public static Ion cerium_Ion_3 = new Ion("Cerium(III)", Elements_OLD.cerium.SYMBOL, 3, Elements_OLD.cerium.MASS);
+	public static Cerium_3_Ion cerium_3_ion = new Cerium_3_Ion();
 		
 	/** Chromium(III) */
 	public static Ion chromium_Ion_3 = new Ion("Chromium(III)", Elements_OLD.chromium.SYMBOL, 3, Elements_OLD.chromium.MASS);
