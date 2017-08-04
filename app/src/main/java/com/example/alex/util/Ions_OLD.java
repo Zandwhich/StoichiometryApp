@@ -1,31 +1,54 @@
 package com.example.alex.util;
 
+import com.example.alex.util.Ions.Acetate;
 import com.example.alex.util.Ions.Aluminum_Ion;
+import com.example.alex.util.Ions.Ammonium;
+import com.example.alex.util.Ions.Azide;
 import com.example.alex.util.Ions.Barium_Ion;
 import com.example.alex.util.Ions.Bismuth_3_Ion;
+import com.example.alex.util.Ions.Bromide;
 import com.example.alex.util.Ions.Cadmium_Ion;
 import com.example.alex.util.Ions.Calcium_Ion;
+import com.example.alex.util.Ions.Carbide;
 import com.example.alex.util.Ions.Cerium_3_Ion;
 import com.example.alex.util.Ions.Cesium_Ion;
+import com.example.alex.util.Ions.Chloride;
+import com.example.alex.util.Ions.Chromium_3_Ion;
 import com.example.alex.util.Ions.Cobalt_2_Ion;
 import com.example.alex.util.Ions.Copper_1_Ion;
 import com.example.alex.util.Ions.Copper_2_Ion;
+import com.example.alex.util.Ions.Fluoride;
+import com.example.alex.util.Ions.Gallium_3_Ion;
+import com.example.alex.util.Ions.Germanium_4_Ion;
 import com.example.alex.util.Ions.Hydrogen_Ion;
+import com.example.alex.util.Ions.Iodide;
 import com.example.alex.util.Ions.Iron_2_Ion;
+import com.example.alex.util.Ions.Iron_3_Ion;
 import com.example.alex.util.Ions.Lead_2_Ion;
+import com.example.alex.util.Ions.Lead_4_Ion;
 import com.example.alex.util.Ions.Lithium_Ion;
 import com.example.alex.util.Ions.Magnesium_Ion;
 import com.example.alex.util.Ions.Manganese_2_Ion;
 import com.example.alex.util.Ions.Mercury_2_Ion;
 import com.example.alex.util.Ions.Nickel_Ion;
+import com.example.alex.util.Ions.Nitride;
+import com.example.alex.util.Ions.Oxide;
+import com.example.alex.util.Ions.Phosphide;
 import com.example.alex.util.Ions.Potassium_Ion;
 import com.example.alex.util.Ions.Rubidium_Ion;
+import com.example.alex.util.Ions.Selenide;
+import com.example.alex.util.Ions.Silicon_4_Ion;
 import com.example.alex.util.Ions.Silver_Ion;
 import com.example.alex.util.Ions.Sodium_Ion;
 import com.example.alex.util.Ions.Strontium_Ion;
+import com.example.alex.util.Ions.Sulfide;
+import com.example.alex.util.Ions.Telluride;
 import com.example.alex.util.Ions.Thallium_1_Ion;
+import com.example.alex.util.Ions.Thorium_4_Ion;
 import com.example.alex.util.Ions.Tin_2_Ion;
+import com.example.alex.util.Ions.Tin_4_Ion;
 import com.example.alex.util.Ions.Zinc_Ion;
+import com.example.alex.util.Ions.Zirconium_4_Ion;
 
 /**
  * A utility class that holds all the ions.
@@ -114,87 +137,75 @@ public class Ions_OLD {
 	public static Cerium_3_Ion cerium_3_ion = new Cerium_3_Ion();
 		
 	/** Chromium(III) */
-	public static Ion chromium_Ion_3 = new Ion("Chromium(III)", Elements_OLD.chromium.SYMBOL, 3, Elements_OLD.chromium.MASS);
+	public static Chromium_3_Ion chromium_3_ion = new Chromium_3_Ion();
 		
 	/** Gallium(III) */
-	public static Ion gallium_Ion_3 = new Ion("Galium(III)", Elements_OLD.gallium.SYMBOL, 3, Elements_OLD.gallium.MASS);
+	public static Gallium_3_Ion gallium_3_ion = new Gallium_3_Ion();
 		
 	/** Iron(III) */
-	public static Ion iron_Ion_3 = new Ion("Iron(III)", Elements_OLD.iron.SYMBOL, 3, Elements_OLD.iron.MASS);
+	public static Iron_3_Ion iron_3_ion = new Iron_3_Ion();
 		
 	/** Germanium(IV) */
-	public static Ion germanium_Ion_4 = new Ion("Germanium(IV)", Elements_OLD.germanium.SYMBOL, 4, Elements_OLD.germanium.MASS);
+	public static Germanium_4_Ion germanium_4_ion = new Germanium_4_Ion();
 		
 	/** Lead(IV) */
-	public static Ion lead_Ion_4 = new Ion("Lead(IV)", Elements_OLD.lead.SYMBOL, 4, Elements_OLD.lead.MASS);
+	public static Lead_4_Ion lead_4_ion = new Lead_4_Ion();
 		
 	/** Silicon(IV) */
-	public static Ion silicon_Ion_4 = new Ion("Silicon(IV)", Elements_OLD.silicon.SYMBOL, 4, Elements_OLD.silicon.MASS);
-		
+	public static Silicon_4_Ion silicon_4_ion = new Silicon_4_Ion();
+
 	/** Thorium(IV) */
-	public static Ion thorium_Ion_4 = new Ion("Thorium(IV)", Elements_OLD.thorium.SYMBOL, 4, Elements_OLD.thorium.MASS);
+	public static Thorium_4_Ion thorium_4_ion = new Thorium_4_Ion();
 		
 	/** Tin(IV) */
-	public static Ion tin_Ion_4 = new Ion("Tin(IV)", Elements_OLD.tin.SYMBOL, 4, Elements_OLD.tin.MASS);
+	public static Tin_4_Ion tin_4_ion = new Tin_4_Ion();
 		
 	/** Zirconium(IV) */
-	public static Ion zirconium_Ion_4 = new Ion("Zirconium(IV)", Elements_OLD.zirconium.SYMBOL, 4, Elements_OLD.zirconium.MASS);
+	public static Zirconium_4_Ion zirconium_4_ion = new Zirconium_4_Ion();
 		
 	/** Ammonium */
-	public static Ion ammonium = new Ion("Ammonium",
-			Elements_OLD.nitrogen.SYMBOL + Elements_OLD.hydrogen.SYMBOL + "4",
-			1,
-			Elements_OLD.nitrogen.MASS + 4 * Elements_OLD.hydrogen.MASS);
+	public static Ammonium ammonium = new Ammonium();
 		
 	/* Negative */
 		
 	/** Bromide */
-	public static Ion bromide = new Ion("Bromide", Elements_OLD.bromine.SYMBOL, -1, Elements_OLD.bromine.MASS);
+	public static Bromide bromide = new Bromide();
 		
 	/** Chloride */
-	public static Ion chloride = new Ion("Chloride", Elements_OLD.chlorine.SYMBOL, -1, Elements_OLD.chlorine.MASS);
+	public static Chloride chloride = new Chloride();
 		
 	/** Fluoride */
-	public static Ion flouride = new Ion("Flouride", Elements_OLD.flourine.SYMBOL, -1, Elements_OLD.flourine.MASS);
+	public static Fluoride fluoride = new Fluoride();
 		
 	/** Iodide */
-	public static Ion iodide = new Ion("Iodide", Elements_OLD.iodine.SYMBOL, -1, Elements_OLD.iodine.MASS);
+	public static Iodide iodide = new Iodide();
 		
 	/** Oxide */
-	public static Ion oxide = new Ion("Oxide", Elements_OLD.oxygen.SYMBOL, -2, Elements_OLD.oxygen.MASS);
+	public static Oxide oxide = new Oxide();
 		
 	/** Selenide */
-	public static Ion slenide = new Ion("Selenide", Elements_OLD.selenium.SYMBOL, -2, Elements_OLD.selenium.MASS);
+	public static Selenide selenide = new Selenide();
 		
 	/** Sulfide */
-	public static Ion sulfide = new Ion("Sulfide", Elements_OLD.sulfur.SYMBOL, -2, Elements_OLD.sulfur.MASS);
+	public static Sulfide sulfide = new Sulfide();
 		
 	/** Telluride */
-	public static Ion telluride = new Ion("Telluride", Elements_OLD.tellurium.SYMBOL, -2, Elements_OLD.tellurium.MASS);
+	public static Telluride telluride = new Telluride();
 		
 	/** Nitride */
-	public static Ion nitride = new Ion("Nitride", Elements_OLD.nitrogen.SYMBOL, -3, Elements_OLD.nitrogen.MASS);
+	public static Nitride nitride = new Nitride();
 		
 	/** Phosphide */
-	public static Ion phosphide = new Ion("Phosphide", Elements_OLD.phosphorus.SYMBOL, -3, Elements_OLD.phosphorus.MASS);
+	public static Phosphide phosphide = new Phosphide();
 		
 	/** Carbide */
-	public static Ion carbide = new Ion("Carbide", Elements_OLD.carbon.SYMBOL, -4, Elements_OLD.carbon.MASS);
-		
-	
+	public static Carbide carbide = new Carbide();
+
 	/** Acetate */
-	public static Ion acetate = new Ion("Acetate", 
-			Elements_OLD.carbon.SYMBOL + "2" + Elements_OLD.hydrogen.SYMBOL + "3" + Elements_OLD.oxygen.SYMBOL + "2",
-			-1, 
-			Elements_OLD.carbon.MASS * 2 + Elements_OLD.hydrogen.MASS * 3 + Elements_OLD.oxygen.MASS * 2);
-		
+	public static Acetate acetate = new Acetate();
 		
 	/** Azide */
-	public static Ion azide = new Ion("Azide", 
-			Elements_OLD.nitrogen.SYMBOL + "3",
-			-1, 
-			Elements_OLD.nitrogen.MASS * 3);
-		
+	public static Azide azide = new Azide();
 		
 	/** Benzoate */
 	public static Ion benzoate = new Ion("Benzoate",
