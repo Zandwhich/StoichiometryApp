@@ -1,6 +1,93 @@
 package com.example.alex.util;
 
-import com.example.alex.stochiometryapp.BuildConfig;
+import com.example.alex.util.Elements.Aluminum;
+import com.example.alex.util.Elements.Antimony;
+import com.example.alex.util.Elements.Argon;
+import com.example.alex.util.Elements.Arsenic;
+import com.example.alex.util.Elements.Astatine;
+import com.example.alex.util.Elements.Barium;
+import com.example.alex.util.Elements.Beryllium;
+import com.example.alex.util.Elements.Bismuth;
+import com.example.alex.util.Elements.Boron;
+import com.example.alex.util.Elements.Bromine;
+import com.example.alex.util.Elements.Cadmium;
+import com.example.alex.util.Elements.Calcium;
+import com.example.alex.util.Elements.Carbon;
+import com.example.alex.util.Elements.Cerium;
+import com.example.alex.util.Elements.Cesium;
+import com.example.alex.util.Elements.Chlorine;
+import com.example.alex.util.Elements.Chromium;
+import com.example.alex.util.Elements.Cobalt;
+import com.example.alex.util.Elements.Copper;
+import com.example.alex.util.Elements.Dysprosium;
+import com.example.alex.util.Elements.Erbium;
+import com.example.alex.util.Elements.Europium;
+import com.example.alex.util.Elements.Fluorine;
+import com.example.alex.util.Elements.Francium;
+import com.example.alex.util.Elements.Gadolinium;
+import com.example.alex.util.Elements.Gallium;
+import com.example.alex.util.Elements.Germanium;
+import com.example.alex.util.Elements.Gold;
+import com.example.alex.util.Elements.Hafnium;
+import com.example.alex.util.Elements.Helium;
+import com.example.alex.util.Elements.Holmium;
+import com.example.alex.util.Elements.Hydrogen;
+import com.example.alex.util.Elements.Indium;
+import com.example.alex.util.Elements.Iodine;
+import com.example.alex.util.Elements.Iridium;
+import com.example.alex.util.Elements.Iron;
+import com.example.alex.util.Elements.Krypton;
+import com.example.alex.util.Elements.Lanthanum;
+import com.example.alex.util.Elements.Lead;
+import com.example.alex.util.Elements.Lithium;
+import com.example.alex.util.Elements.Lutetium;
+import com.example.alex.util.Elements.Magnesium;
+import com.example.alex.util.Elements.Manganese;
+import com.example.alex.util.Elements.Mercury;
+import com.example.alex.util.Elements.Molybdenum;
+import com.example.alex.util.Elements.Neodymium;
+import com.example.alex.util.Elements.Neon;
+import com.example.alex.util.Elements.Nickel;
+import com.example.alex.util.Elements.Niobium;
+import com.example.alex.util.Elements.Nitrogen;
+import com.example.alex.util.Elements.Osmium;
+import com.example.alex.util.Elements.Oxygen;
+import com.example.alex.util.Elements.Palladium;
+import com.example.alex.util.Elements.Phosphorus;
+import com.example.alex.util.Elements.Platinum;
+import com.example.alex.util.Elements.Polonium;
+import com.example.alex.util.Elements.Potassium;
+import com.example.alex.util.Elements.Praseodymium;
+import com.example.alex.util.Elements.Promethium;
+import com.example.alex.util.Elements.Radium;
+import com.example.alex.util.Elements.Radon;
+import com.example.alex.util.Elements.Rhenium;
+import com.example.alex.util.Elements.Rhodium;
+import com.example.alex.util.Elements.Rubidium;
+import com.example.alex.util.Elements.Ruthenium;
+import com.example.alex.util.Elements.Samarium;
+import com.example.alex.util.Elements.Scandium;
+import com.example.alex.util.Elements.Selenium;
+import com.example.alex.util.Elements.Silicon;
+import com.example.alex.util.Elements.Silver;
+import com.example.alex.util.Elements.Sodium;
+import com.example.alex.util.Elements.Strontium;
+import com.example.alex.util.Elements.Sulfur;
+import com.example.alex.util.Elements.Tantalum;
+import com.example.alex.util.Elements.Technetium;
+import com.example.alex.util.Elements.Tellurium;
+import com.example.alex.util.Elements.Terbium;
+import com.example.alex.util.Elements.Thallium;
+import com.example.alex.util.Elements.Thulium;
+import com.example.alex.util.Elements.Tin;
+import com.example.alex.util.Elements.Titanium;
+import com.example.alex.util.Elements.Tungsten;
+import com.example.alex.util.Elements.Vanadium;
+import com.example.alex.util.Elements.Xenon;
+import com.example.alex.util.Elements.Ytterbium;
+import com.example.alex.util.Elements.Yttrium;
+import com.example.alex.util.Elements.Zinc;
+import com.example.alex.util.Elements.Zirconium;
 
 /**
  * A utility class that holds all the atoms.
@@ -12,268 +99,268 @@ public class Elements_OLD {
 	public final static Atom[] allElements = new Atom[118];
 
 	/** Hydrogen */
-	public final static Atom hydrogen = new Atom("Hydrogen", "H", 1, 1.008, true);
+	public final static Hydrogen HYDROGEN = new Hydrogen();
 
 	/** Helium */
-	public final static Atom helium = new Atom("Helium", "He", 2, 4.003, false);
+	public final static Helium HELIUM = new Helium();
 	
 	/** Lithium */
-	public final static Atom lithium = new Atom("Lithium", "Li", 3, 6.941, false);
+	public final static Lithium LITHIUM = new Lithium();
 	
 	/** Beryllium */
-	public final static Atom beryllium = new Atom("Beryllium", "Be", 4, 9.012, false);
+	public final static Beryllium BERYLLIUM = new Beryllium();
 	
 	/** Boron */
-	public final static Atom boron = new Atom("Boron", "B", 5, 10.81, false);
+	public final static Boron BORON = new Boron();
 	
 	/** Carbon */
-	public final static Atom carbon = new Atom("Carbon", "C", 6, 12.01, false);
+	public final static Carbon CARBON = new Carbon();
 	
 	/** Nitrogen */
-	public final static Atom nitrogen = new Atom("Nitrognen", "N",  7, 14.01, true);
+	public final static Nitrogen NITROGEN = new Nitrogen();
 	
 	/** Oxygen */
-	public final static Atom oxygen = new Atom("Oxygen", "O", 8, 16.00, true);
+	public final static Oxygen OXYGEN = new Oxygen();
 	
 	/** Flourine */
-	public final static Atom flourine = new Atom("Flourine", "F", 9, 19.00, true);
+	public final static Fluorine FLUORINE = new Fluorine();
 	
 	/** Neon */
-	public final static Atom neon = new Atom("Neon", "N", 10, 20.18, false);
+	public final static Neon NEON = new Neon();
 	
 	/** Sodium */
-	public final static Atom sodium = new Atom("Sodium", "Na", 11, 22.99, false);
+	public final static Sodium SODIUM = new Sodium();
 	
 	/** Magnesium */
-	public final static Atom magnesium = new Atom("Magnesium", "Mg", 12, 24.31, false);
+	public final static Magnesium MAGNESIUM = new Magnesium();
 	
 	/** Aluminum */
-	public final static Atom aluminum = new Atom("Aluminum", "Al", 13, 26.98, false);
+	public final static Aluminum ALUMINUM = new Aluminum();
 	
 	/** Silicon */
-	public final static Atom silicon = new Atom("Silicon", "Si", 14, 28.09, false);
+	public final static Silicon SILICON = new Silicon();
 	
 	/** Phosphorus */
-	public final static Atom phosphorus = new Atom("Phosphorus", "P", 15, 30.97, false);
+	public final static Phosphorus PHOSPHORUS = new Phosphorus();
 	
 	/** Sulfur */
-	public final static Atom sulfur = new Atom("Sulfur", "S", 16, 32.06, false);
+	public final static Sulfur SULFUR = new Sulfur();
 	
 	/** Chlorine */
-	public final static Atom chlorine = new Atom("Chlorine", "Cl", 17, 35.45, true);
+	public final static Chlorine CHLORINE = new Chlorine();
 	
 	/** Argon */
-	public final static Atom argon = new Atom("Argon", "Ar", 18, 39.95, false);
+	public final static Argon ARGON = new Argon();
 	
 	/** Potassium */
-	public final static Atom potassium = new Atom("Potassium", "K", 19, 39.10, false);
+	public final static Potassium POTASSIUM = new Potassium();
 	
 	/** Calcium */
-	public final static Atom calcium = new Atom("Calcium", "Ca", 20, 40.08, false);
+	public final static Calcium CALCIUM = new Calcium();
 	
 	/** Scandium */
-	public final static Atom scandium = new Atom("Scandium", "Sc", 21, 44.96, false);
+	public final static Scandium SCANDIUM = new Scandium();
 	
 	/** Titanium */
-	public final static Atom titanium = new Atom("Titanium", "Ti", 22, 47.98, false);
+	public final static Titanium TITANIUM = new Titanium();
 	
 	/** Vanadium */
-	public final static Atom vanadium = new Atom("Vanadium", "V", 23, 50.94, false);
+	public final static Vanadium VANADIUM = new Vanadium();
 	
 	/** Chromium */
-	public final static Atom chromium = new Atom("Chromium", "Cr", 24, 52.00, false);
+	public final static Chromium CHROMIUM = new Chromium();
 	
 	/** Manganese */
-	public final static Atom manganese = new Atom("Manganese", "Mn", 25, 54.94, false);
+	public final static Manganese MANGANESE = new Manganese();
 	
 	/** Iron */
-	public final static Atom iron = new Atom("Iron", "Fe", 26, 55.85, false);
+	public final static Iron IRON = new Iron();
 	
 	/** Cobalt */
-	public final static Atom cobalt = new Atom("Cobalt", "Co", 27, 58.93, false);
+	public final static Cobalt COBALT = new Cobalt();
 	
 	/** Nickel */
-	public final static Atom nickel = new Atom("Nickel", "Ni", 28, 58.96, false);
+	public final static Nickel NICKEL = new Nickel();
 	
 	/** Copper */
-	public final static Atom copper = new Atom("Copper", "Cu", 29, 63.55, false);
+	public final static Copper COPPER = new Copper();
 	
 	/** Zinc */
-	public final static Atom zinc = new Atom("Zinc", "Zn", 30, 65.38, false);
+	public final static Zinc ZINC = new Zinc();
 	
 	/** Gallium */
-	public final static Atom gallium = new Atom("Gallium", "Ga", 31, 69.72, false);
+	public final static Gallium GALLIUM = new Gallium();
 	
 	/** Germanium */
-	public final static Atom germanium = new Atom("Germanium", "Ge", 32, 72.59, false);
+	public final static Germanium GERMANIUM = new Germanium();
 	
 	/** Arsenic */
-	public final static Atom arsenic = new Atom("Arsenic", "As", 33, 74.29, false);
+	public final static Arsenic ARSENIC = new Arsenic();
 	
 	/** Selenium */
-	public final static Atom selenium = new Atom("Selenium", "Se", 34, 78.96, false);
+	public final static Selenium SELENIUM = new Selenium();
 	
 	/** Bromine */
-	public final static Atom bromine = new Atom("Bromine", "Br", 35, 79.90, true);
+	public final static Bromine BROMINE = new Bromine();
 	
 	/** Krypton */
-	public final static Atom krypton = new Atom("Krypton", "Kr", 36, 83.80, false);
+	public final static Krypton KRYPTON = new Krypton();
 	
 	/** Rubidium */
-	public final static Atom rubidium = new Atom("Rubidium", "Rb", 37, 85.47, false);
+	public final static Rubidium RUBIDIUM = new Rubidium();
 	
 	/** Strontium */
-	public final static Atom strontium = new Atom("Strontium", "Sr", 38, 87.62, false);
+	public final static Strontium STRONTIUM = new Strontium();
 	
 	/** Yttrium */
-	public final static Atom yttrium = new Atom("Yttrium", "Y", 39, 88.91, false);
+	public final static Yttrium YTTRIUM = new Yttrium();
 	
 	/** Zirconium */
-	public final static Atom zirconium = new Atom("Zirconium", "Zr", 40, 91.22, false);
+	public final static Zirconium ZIRCONIUM = new Zirconium();
 	
 	/** Niobium */
-	public final static Atom niobium = new Atom("Niobium", "Nb", 41, 92.91, false);
+	public final static Niobium NIOBIUM = new Niobium();
 	
 	/** Molybdenum */
-	public final static Atom molybdenum = new Atom("Molybdenum", "Mo", 42, 95.94, false);
+	public final static Molybdenum MOLYBDENUM = new Molybdenum();
 	
 	/** Technetium */
-	public final static Atom technetium = new Atom("Technetium", "Tc", 43, 98, false);
+	public final static Technetium TECHNETIUM = new Technetium();
 	
 	/** Ruthenium */
-	public final static Atom ruthenium = new Atom("Ruthenium", "Ru", 44, 101.07, false);
+	public final static Ruthenium RUTHENIUM = new Ruthenium();
 	
 	/** Rhodium */
-	public final static Atom rhodium = new Atom("Rhodium", "Rh", 45, 102.91, false);
+	public final static Rhodium RHODIUM = new Rhodium();
 	
 	/** Palladium */
-	public final static Atom palladium = new Atom("Palladium", "Pd", 46, 106.42, false);
+	public final static Palladium PALLADIUM = new Palladium();
 	
 	/** Silver */
-	public final static Atom silver = new Atom("Silver", "Ag", 47, 107.87, false);
+	public final static Silver SILVER = new Silver();
 	
 	/** Cadmium */
-	public final static Atom cadmium = new Atom("Cadmium", "Cd", 48, 112.41, false);
+	public final static Cadmium CADMIUM = new Cadmium();
 	
 	/** Indium */
-	public final static Atom indium = new Atom("Indium", "In", 49, 114.82, false);
+	public final static Indium INDIUM = new Indium();
 	
 	/** Tin */
-	public final static Atom tin = new Atom("Tin", "Sn", 50, 118.71, false);
+	public final static Tin TIN = new Tin();
 	
 	/** Antimony */
-	public final static Atom antimony = new Atom("Antimony", "Sb", 51, 121.75, false);
+	public final static Antimony ANTIMONY = new Antimony();
 	
 	/** Tellurium */
-	public final static Atom tellurium = new Atom("Tellurium", "Te", 52, 127.60, false);
-	
+	public final static Tellurium TELLURIUM = new Tellurium();
+
 	/** Iodine */
-	public final static Atom iodine = new Atom("Iodine", "I", 53, 126.91, true);
+	public final static Iodine IODINE = new Iodine();
 	
 	/** Xenon */
-	public final static Atom xenon = new Atom("Xenon", "Xe", 54, 131.29, false);
+	public final static Xenon XENON = new Xenon();
 	
 	/** Cesium */
-	public final static Atom cesium = new Atom("Cesium", "Cs", 55, 132.91, false);
+	public final static Cesium CESIUM = new Cesium();
 	
 	/** Barium */
-	public final static Atom barium = new Atom("Barium", "Ba", 56, 137.33, false);
+	public final static Barium BARIUM = new Barium();
 	
 	/** Lanthanum */
-	public final static Atom lanthanum = new Atom("Lanthanum", "La", 57, 138.91, false);
+	public final static Lanthanum LANTHANUM = new Lanthanum();
 	
 	/** Cerium */
-	public final static Atom cerium = new Atom("Cerium", "Ce", 58, 140.12, false);
+	public final static Cerium CERIUM = new Cerium();
 	
 	/** Praesodymium */
-	public final static Atom praesodymium = new Atom("Praseodymium", "Pr", 59, 140.91, false);
+	public final static Praseodymium PRASEODYMIUM = new Praseodymium();
 	
 	/** Neodymium */
-	public final static Atom neodymium = new Atom("Neodymium", "Nd", 60, 144.24, false);
+	public final static Neodymium NEODYMIUM = new Neodymium();
 	
 	/** Promethium */
-	public final static Atom promethium = new Atom("Promethium", "Pm", 61, 145, false);
+	public final static Promethium PROMETHIUM = new Promethium();
 	
 	/** Samarium */
-	public final static Atom samarium = new Atom("Samarium", "Sm", 62, 150.36, false);
+	public final static Samarium SAMARIUM = new Samarium();
 	
 	/** Europium */
-	public final static Atom europium = new Atom("Europium", "Eu", 63, 151.96, false);
+	public final static Europium EUROPIUM = new Europium();
 	
 	/** Gadolinium */
-	public final static Atom gadolinium = new Atom("Gadolinium", "Gd", 64, 157.25, false);
+	public final static Gadolinium GADOLINIUM = new Gadolinium();
 	
 	/** Terbium */
-	public final static Atom terbium = new Atom("Terbium", "Tb", 65, 158.93, false);
+	public final static Terbium TERBIUM = new Terbium();
 	
 	/** Dysprosium */
-	public final static Atom dysprosium = new Atom("Dysprosium", "Dy", 66, 162.50, false);
+	public final static Dysprosium DYSPROSIUM = new Dysprosium();
 	
 	/** Holmium */
-	public final static Atom holmium = new Atom("Holmium", "Ho", 67, 164.93, false);
+	public final static Holmium HOLMIUM = new Holmium();
 	
 	/** Erbium */
-	public final static Atom erbium = new Atom("Erbium", "Er", 68, 167.26, false);
+	public final static Erbium ERBIUM = new Erbium();
 	
 	/** Thulium */
-	public final static Atom thulium = new Atom("Thulium", "Tm", 69, 168.93, false);
+	public final static Thulium THULIUM = new Thulium();
 	
 	/** Ytterbium */
-	public final static Atom ytterbium = new Atom("Ytterbium", "Yb", 70, 173.04, false);
+	public final static Ytterbium YTTERBIUM = new Ytterbium();
 	
 	/** Lutetium */
-	public final static Atom lutetium = new Atom("Lutetium", "Lu", 71, 174.97, false);
+	public final static Lutetium LUTETIUM = new Lutetium();
 	
 	/** Hafnium */
-	public final static Atom hafnium = new Atom("Hafnium", "Hf", 72, 178.49, false);
+	public final static Hafnium HAFNIUM = new Hafnium();
 	
 	/** Tantalum */
-	public final static Atom tantalum = new Atom("Tantalum", "Ta", 73, 180.95, false);
+	public final static Tantalum TANTALUM = new Tantalum();
 	
 	/** Tungsten */
-	public final static Atom tungsten = new Atom("Tungsten", "W", 74, 183.85, false);
+	public final static Tungsten TUNGSTEN = new Tungsten();
 	
 	/** Rhenium */
-	public final static Atom rhenium = new Atom("Rhenium", "Re", 75, 186.21, false);
+	public final static Rhenium RHENIUM = new Rhenium();
 	
 	/** Osmium */
-	public final static Atom osmium = new Atom("Osmium", "Os", 76, 190.23, false);
+	public final static Osmium OSMIUM = new Osmium();
 	
 	/** Iridium */
-	public final static Atom iridium = new Atom("Iridium", "Ir", 77, 192.22, false);
+	public final static Iridium IRIDIUM = new Iridium();
 	
 	/** Platinum */
-	public final static Atom platinum = new Atom("Platinum", "Pt", 78, 195.08, false);
+	public final static Platinum PLATNIUM = new Platinum();
 	
 	/** Gold */
-	public final static Atom gold = new Atom("Gold", "Au", 79, 196.97, false);
+	public final static Gold GOLD = new Gold();
 	
 	/** Mercury */
-	public final static Atom mercury = new Atom("Mercury", "Hg", 80, 200.59, false);
+	public final static Mercury MERCURY = new Mercury();
 	
 	/** Thallium */
-	public final static Atom thallium = new Atom("Thallium", "Tl", 81, 204.38, false);
+	public final static Thallium THALLIUM = new Thallium();
 	
 	/** Lead */
-	public final static Atom lead = new Atom("Lead", "Pb", 82, 207.2, false);
+	public final static Lead LEAD = new Lead();
 	
 	/** Bismuth */
-	public final static Atom bismuth = new Atom("Bismuth", "Bi", 83, 208.98, false);
+	public final static Bismuth BISMUTH = new Bismuth();
 	
 	/** Polonium */
-	public final static Atom polonium = new Atom("Polonium", "Po", 84, 209, false);
+	public final static Polonium POLONIUM = new Polonium();
 	
 	/** Astatine */
-	public final static Atom astatine = new Atom("Astatine", "At", 85, 210, false);
+	public final static Astatine ASTATINE = new Astatine();
 	
 	/** Radon */
-	public final static Atom radon = new Atom("Radon", "Rn", 86, 222, false);
+	public final static Radon RADON = new Radon();
 	
 	/** Francium */
-	public final static Atom francium = new Atom("Francium", "Fr", 87, 223, false);
+	public final static Francium FRANCIUM = new Francium();
 	
 	/** Radium */
-	public final static Atom radium = new Atom("Radium", "Ra", 88, 226.03, false);
+	public final static Radium RADIUM = new Radium();
 	
 	/** Actinium */
 	public final static Atom actinium = new Atom("Actinium", "Ac", 89, 227, false);
@@ -366,36 +453,36 @@ public class Elements_OLD {
 	public final static Atom oganesson = new Atom("Oganesson", "Og", 118, 294, false);
 
 	public Elements_OLD() {
-		allElements[hydrogen.NUMBER - 1] = hydrogen;
-		allElements[helium.NUMBER - 1] = helium;
-		allElements[lithium.NUMBER - 1] = lithium;
-		allElements[beryllium.NUMBER - 1] = beryllium;
-		allElements[boron.NUMBER - 1] = boron;
-		allElements[carbon.NUMBER - 1] = carbon;
-		allElements[nitrogen.NUMBER - 1] = nitrogen;
-		allElements[oxygen.NUMBER - 1] = oxygen;
-		allElements[flourine.NUMBER - 1] = flourine;
-		allElements[neon.NUMBER - 1] = neon;
-		allElements[sodium.NUMBER - 1] = sodium;
-		allElements[magnesium.NUMBER - 1] = magnesium;
-		allElements[aluminum.NUMBER - 1] = aluminum;
-		allElements[silicon.NUMBER - 1] = silicon;
-		allElements[phosphorus.NUMBER - 1] = phosphorus;
-		allElements[sulfur.NUMBER - 1] = sulfur;
-		allElements[chlorine.NUMBER - 1] = chlorine;
-		allElements[argon.NUMBER - 1] = argon;
-		allElements[potassium.NUMBER - 1] = potassium;
-		allElements[calcium.NUMBER - 1] = calcium;
-		allElements[scandium.NUMBER - 1] = scandium;
-		allElements[titanium.NUMBER - 1] = titanium;
-		allElements[vanadium.NUMBER - 1] = vanadium;
-		allElements[chromium.NUMBER - 1] = chromium;
-		allElements[manganese.NUMBER - 1] = manganese;
-		allElements[iron.NUMBER - 1] = iron;
-		allElements[cobalt.NUMBER - 1] = cobalt;
-		allElements[nickel.NUMBER - 1] = nickel;
-		allElements[copper.NUMBER - 1] = copper;
-		allElements[zinc.NUMBER - 1] = zinc;
+		allElements[HYDROGEN.NUMBER - 1] = HYDROGEN;
+		allElements[HELIUM.NUMBER - 1] = HELIUM;
+		allElements[LITHIUM.NUMBER - 1] = LITHIUM;
+		allElements[BERYLLIUM.NUMBER - 1] = BERYLLIUM;
+		allElements[BORON.NUMBER - 1] = BORON;
+		allElements[CARBON.NUMBER - 1] = CARBON;
+		allElements[NITROGEN.NUMBER - 1] = NITROGEN;
+		allElements[OXYGEN.NUMBER - 1] = OXYGEN;
+		allElements[FLUORINE.NUMBER - 1] = FLUORINE;
+		allElements[NEON.NUMBER - 1] = NEON;
+		allElements[SODIUM.NUMBER - 1] = SODIUM;
+		allElements[MAGNESIUM.NUMBER - 1] = MAGNESIUM;
+		allElements[ALUMINUM.NUMBER - 1] = ALUMINUM;
+		allElements[SILICON.NUMBER - 1] = SILICON;
+		allElements[PHOSPHORUS.NUMBER - 1] = PHOSPHORUS;
+		allElements[SULFUR.NUMBER - 1] = SULFUR;
+		allElements[CHLORINE.NUMBER - 1] = CHLORINE;
+		allElements[ARGON.NUMBER - 1] = ARGON;
+		allElements[POTASSIUM.NUMBER - 1] = POTASSIUM;
+		allElements[CALCIUM.NUMBER - 1] = CALCIUM;
+		allElements[SCANDIUM.NUMBER - 1] = SCANDIUM;
+		allElements[TITANIUM.NUMBER - 1] = TITANIUM;
+		allElements[VANADIUM.NUMBER - 1] = VANADIUM;
+		allElements[CHROMIUM.NUMBER - 1] = CHROMIUM;
+		allElements[MANGANESE.NUMBER - 1] = MANGANESE;
+		allElements[IRON.NUMBER - 1] = IRON;
+		allElements[COBALT.NUMBER - 1] = COBALT;
+		allElements[NICKEL.NUMBER - 1] = NICKEL;
+		allElements[COPPER.NUMBER - 1] = COPPER;
+		allElements[ZINC.NUMBER - 1] = ZINC;
 		allElements[gallium.NUMBER - 1] = gallium;
 		allElements[germanium.NUMBER - 1] = germanium;
 		allElements[arsenic.NUMBER - 1] = arsenic;
