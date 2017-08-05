@@ -1,26 +1,39 @@
 package com.example.alex.util;
 
+import com.example.alex.util.Elements.Hydrogen;
 import com.example.alex.util.Ions.Acetate;
 import com.example.alex.util.Ions.Aluminum_Ion;
 import com.example.alex.util.Ions.Ammonium;
 import com.example.alex.util.Ions.Azide;
 import com.example.alex.util.Ions.Barium_Ion;
+import com.example.alex.util.Ions.Benzoate;
+import com.example.alex.util.Ions.Bicarbonate;
 import com.example.alex.util.Ions.Bismuth_3_Ion;
+import com.example.alex.util.Ions.Bisulfite;
+import com.example.alex.util.Ions.Bromate;
 import com.example.alex.util.Ions.Bromide;
 import com.example.alex.util.Ions.Cadmium_Ion;
 import com.example.alex.util.Ions.Calcium_Ion;
 import com.example.alex.util.Ions.Carbide;
 import com.example.alex.util.Ions.Cerium_3_Ion;
 import com.example.alex.util.Ions.Cesium_Ion;
+import com.example.alex.util.Ions.Chlorate;
 import com.example.alex.util.Ions.Chloride;
+import com.example.alex.util.Ions.Chlorite;
 import com.example.alex.util.Ions.Chromium_3_Ion;
 import com.example.alex.util.Ions.Cobalt_2_Ion;
 import com.example.alex.util.Ions.Copper_1_Ion;
 import com.example.alex.util.Ions.Copper_2_Ion;
+import com.example.alex.util.Ions.Cyanide;
 import com.example.alex.util.Ions.Fluoride;
+import com.example.alex.util.Ions.Formate;
 import com.example.alex.util.Ions.Gallium_3_Ion;
 import com.example.alex.util.Ions.Germanium_4_Ion;
 import com.example.alex.util.Ions.Hydrogen_Ion;
+import com.example.alex.util.Ions.Hydroxide;
+import com.example.alex.util.Ions.Hypochlorite;
+import com.example.alex.util.Ions.Hypophosphite;
+import com.example.alex.util.Ions.Iodate;
 import com.example.alex.util.Ions.Iodide;
 import com.example.alex.util.Ions.Iron_2_Ion;
 import com.example.alex.util.Ions.Iron_3_Ion;
@@ -30,9 +43,16 @@ import com.example.alex.util.Ions.Lithium_Ion;
 import com.example.alex.util.Ions.Magnesium_Ion;
 import com.example.alex.util.Ions.Manganese_2_Ion;
 import com.example.alex.util.Ions.Mercury_2_Ion;
+import com.example.alex.util.Ions.Metaphosphate;
 import com.example.alex.util.Ions.Nickel_Ion;
+import com.example.alex.util.Ions.Nitrate;
 import com.example.alex.util.Ions.Nitride;
+import com.example.alex.util.Ions.Nitrite;
 import com.example.alex.util.Ions.Oxide;
+import com.example.alex.util.Ions.Perchlorate;
+import com.example.alex.util.Ions.Periodate;
+import com.example.alex.util.Ions.Permanganate;
+import com.example.alex.util.Ions.Peroxoborate;
 import com.example.alex.util.Ions.Phosphide;
 import com.example.alex.util.Ions.Potassium_Ion;
 import com.example.alex.util.Ions.Rubidium_Ion;
@@ -44,9 +64,11 @@ import com.example.alex.util.Ions.Strontium_Ion;
 import com.example.alex.util.Ions.Sulfide;
 import com.example.alex.util.Ions.Telluride;
 import com.example.alex.util.Ions.Thallium_1_Ion;
+import com.example.alex.util.Ions.Thiocyanate;
 import com.example.alex.util.Ions.Thorium_4_Ion;
 import com.example.alex.util.Ions.Tin_2_Ion;
 import com.example.alex.util.Ions.Tin_4_Ion;
+import com.example.alex.util.Ions.Vanadate;
 import com.example.alex.util.Ions.Zinc_Ion;
 import com.example.alex.util.Ions.Zirconium_4_Ion;
 
@@ -208,150 +230,66 @@ public class Ions_OLD {
 	public static Azide azide = new Azide();
 		
 	/** Benzoate */
-	public static Ion benzoate = new Ion("Benzoate",
-			Elements_OLD.carbon.SYMBOL + "7" + Elements_OLD.hydrogen.SYMBOL + "5" + Elements_OLD.oxygen.SYMBOL + "2",
-			-1,
-			Elements_OLD.carbon.MASS * 7 + Elements_OLD.hydrogen.MASS * 5 + Elements_OLD.oxygen.MASS * 2);
-		
+	public static Benzoate benzoate = new Benzoate();
 		
 	/** Bicarbonate */
-	public static Ion bicarbonate = new Ion("Bicarbonate",
-			Elements_OLD.hydrogen.SYMBOL + Elements_OLD.carbon.SYMBOL + Elements_OLD.oxygen.SYMBOL + "3",
-			-1,
-			Elements_OLD.hydrogen.MASS + Elements_OLD.carbon.MASS + Elements_OLD.oxygen.MASS * 3);
-		
+	public static Bicarbonate bicarbonate = new Bicarbonate();
 		
 	/** Bisulfite */
-	public static Ion bisulfite = new Ion("Bisulfite",
-			Elements_OLD.hydrogen.SYMBOL + Elements_OLD.sulfur.SYMBOL + Elements_OLD.oxygen.SYMBOL + "3",
-			-1,
-			Elements_OLD.hydrogen.MASS + Elements_OLD.sulfur.MASS + Elements_OLD.oxygen.MASS * 3);
-		
-		
+	public static Bisulfite bisulfite = new Bisulfite();
 		
 	/** Bromate */
-	public static Ion bromate = new Ion("Bromate",
-			Elements_OLD.bromine.SYMBOL + Elements_OLD.oxygen.SYMBOL + "3",
-			-1,
-			Elements_OLD.bromine.MASS + Elements_OLD.oxygen.MASS * 3);
-	
+	public static Bromate bromate = new Bromate();
 	
 	/** Chlorate */
-	public static Ion chlorate = new Ion("Chlorate",
-			Elements_OLD.chlorine.SYMBOL + Elements_OLD.oxygen.SYMBOL + "3",
-			-1,
-			Elements_OLD.chlorine.MASS + Elements_OLD.oxygen.MASS * 3);
-	
+	public static Chlorate chlorate = new Chlorate();
 	
 	/** Chlorite */
-	public static Ion chlorite = new Ion("Chlorite",
-			Elements_OLD.chlorine.SYMBOL + Elements_OLD.oxygen.SYMBOL + "2",
-			-1,
-			Elements_OLD.chlorine.MASS + Elements_OLD.oxygen.MASS * 2);
-	
+	public static Chlorite chlorite = new Chlorite();
 	
 	/** Cyanide */
-	public static Ion cyanide = new Ion("Cyanide",
-			Elements_OLD.carbon.SYMBOL + Elements_OLD.nitrogen.SYMBOL,
-			-1,
-			Elements_OLD.carbon.MASS + Elements_OLD.nitrogen.MASS);
-	
+	public static Cyanide cyanide = new Cyanide();
 	
 	/** Formate */
-	public static Ion formate = new Ion("Formate",
-			Elements_OLD.carbon.SYMBOL + Elements_OLD.hydrogen.SYMBOL + Elements_OLD.oxygen.SYMBOL + "2",
-			-1,
-			Elements_OLD.carbon.MASS + Elements_OLD.hydrogen.MASS + Elements_OLD.oxygen.MASS * 2);
-	
+	public static Formate formate = new Formate();
 	
 	/** Hydroxide */
-	public static Ion hydroxide = new Ion("Hydroxide",
-			Elements_OLD.oxygen.SYMBOL + Elements_OLD.hydrogen.SYMBOL,
-			-1,
-			Elements_OLD.oxygen.MASS + Elements_OLD.hydrogen.MASS);
-	
+	public static Hydroxide hydroxide = new Hydroxide();
 	
 	/** Hypochlorite */
-	public static Ion hypochlorite = new Ion("Hypochlorite",
-			Elements_OLD.chlorine.SYMBOL + Elements_OLD.oxygen.SYMBOL,
-			-1,
-			Elements_OLD.chlorine.MASS + Elements_OLD.oxygen.MASS);
-	
+	public static Hypochlorite hypochlorite = new Hypochlorite();
 	
 	/** Hypophosphoite */
-	public static Ion hypophosphite = new Ion("Hypophosphite",
-			Elements_OLD.phosphorus.SYMBOL + Elements_OLD.hydrogen.SYMBOL + "2" + Elements_OLD.oxygen.SYMBOL + "2",
-			-1,
-			Elements_OLD.phosphorus.MASS + Elements_OLD.hydrogen.MASS * 2 + Elements_OLD.oxygen.MASS * 2);
-	
+	public static Hypophosphite hypophosphite = new Hypophosphite();
 	
 	/** Iodate */
-	public static Ion iodate = new Ion("Iodate",
-			Elements_OLD.iodine.SYMBOL + Elements_OLD.oxygen.SYMBOL + "3",
-			-1,
-			Elements_OLD.iodine.MASS + Elements_OLD.oxygen.MASS * 3);
-	
+	public static Iodate iodate = new Iodate();
 	
 	/** Metaphosphate */
-	public static Ion metaphosphate = new Ion("Metaphosphate",
-			Elements_OLD.phosphorus.SYMBOL + Elements_OLD.oxygen.SYMBOL + "3",
-			-1,
-			Elements_OLD.phosphorus.MASS + Elements_OLD.oxygen.MASS * 3);
-	
+	public static Metaphosphate metaphosphate = new Metaphosphate();
 		
 	/** Nitrate */
-	public static Ion nitrate = new Ion("Nitrate",
-			Elements_OLD.nitrogen.SYMBOL + Elements_OLD.oxygen.SYMBOL + "3",
-			-1,
-			Elements_OLD.nitrogen.MASS + Elements_OLD.oxygen.MASS * 3);
-	
+	public static Nitrate nitrate = new Nitrate();
 	
 	/** Nitrite */
-	public static Ion nitrite = new Ion("Nitrite",
-			Elements_OLD.nitrogen.SYMBOL + Elements_OLD.oxygen.SYMBOL + "2",
-			-1,
-			Elements_OLD.nitrogen.MASS + Elements_OLD.oxygen.MASS * 2);
-	
+	public static Nitrite nitrite = new Nitrite();
 	
 	/** Perchlorate */
-	public static Ion perchlorate = new Ion("Perchlorate",
-			Elements_OLD.chlorine.SYMBOL + Elements_OLD.oxygen.SYMBOL + "4",
-			-1,
-			Elements_OLD.chlorine.MASS + Elements_OLD.oxygen.MASS * 4);
-	
-	
+	public static Perchlorate perchlorate = new Perchlorate();
+
 	/** Periodate */
-	public static Ion periodate = new Ion("Periodate",
-			Elements_OLD.iodine.SYMBOL + Elements_OLD.oxygen.SYMBOL + "4",
-			-1,
-			Elements_OLD.iodine.MASS + Elements_OLD.oxygen.MASS * 4);
-	
+	public static Periodate periodate = new Periodate();
 	
 	/** Permanganate */
-	public static Ion permangante = new Ion("Permanganate",
-			Elements_OLD.manganese.SYMBOL + Elements_OLD.oxygen.SYMBOL + "4",
-			-1,
-			Elements_OLD.manganese.MASS + Elements_OLD.oxygen.MASS + 4);
-	
+	public static Permanganate permanganate = new Permanganate();
 	
 	/** Peroxyborate */
-	public static Ion peroxyborate = new Ion("Peroxyborate",
-			Elements_OLD.boron.SYMBOL + Elements_OLD.oxygen.SYMBOL + "3",
-			-1,
-			Elements_OLD.boron.MASS + Elements_OLD.oxygen.MASS * 3);
-	
+	public static Peroxoborate peroxoborate = new Peroxoborate();
 	
 	/** Thiocyanate */
-	public static Ion thiocyanate = new Ion("Thiocyanate",
-			Elements_OLD.sulfur.SYMBOL + Elements_OLD.carbon.SYMBOL + Elements_OLD.nitrogen.SYMBOL,
-			-1,
-			Elements_OLD.sulfur.MASS + Elements_OLD.carbon.MASS + Elements_OLD.nitrogen.MASS);
-	
+	public static Thiocyanate thiocyanate = new Thiocyanate();
 	
 	/** Vanadate */
-	public static Ion vanadate = new Ion("Vanadate",
-			Elements_OLD.vanadium.SYMBOL + Elements_OLD.oxygen.SYMBOL + "3",
-			-1,
-			Elements_OLD.vanadium.MASS + Elements_OLD.oxygen.MASS * 3);
+	public static Vanadate vanadate = new Vanadate();
 
 }//end class Ions_OLD
