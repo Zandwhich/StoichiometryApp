@@ -9,6 +9,6 @@ import com.example.alex.util.Atom;
 public class Sodium extends Atom {
 
     public Sodium() {
-        super("Sodium", "Na", 10, 20.18, false);
+        super("Sodium", "Na", 11, 20.18, false);
     }//end Sodium()
 }//end Sodium

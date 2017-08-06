@@ -1,93 +1,10 @@
 package com.example.alex.util;
 
-import com.example.alex.util.Elements.Aluminum;
-import com.example.alex.util.Elements.Antimony;
-import com.example.alex.util.Elements.Argon;
-import com.example.alex.util.Elements.Arsenic;
-import com.example.alex.util.Elements.Astatine;
-import com.example.alex.util.Elements.Barium;
-import com.example.alex.util.Elements.Beryllium;
-import com.example.alex.util.Elements.Bismuth;
-import com.example.alex.util.Elements.Boron;
-import com.example.alex.util.Elements.Bromine;
-import com.example.alex.util.Elements.Cadmium;
-import com.example.alex.util.Elements.Calcium;
-import com.example.alex.util.Elements.Carbon;
-import com.example.alex.util.Elements.Cerium;
-import com.example.alex.util.Elements.Cesium;
-import com.example.alex.util.Elements.Chlorine;
-import com.example.alex.util.Elements.Chromium;
-import com.example.alex.util.Elements.Cobalt;
-import com.example.alex.util.Elements.Copper;
-import com.example.alex.util.Elements.Dysprosium;
-import com.example.alex.util.Elements.Erbium;
-import com.example.alex.util.Elements.Europium;
-import com.example.alex.util.Elements.Fluorine;
-import com.example.alex.util.Elements.Francium;
-import com.example.alex.util.Elements.Gadolinium;
-import com.example.alex.util.Elements.Gallium;
-import com.example.alex.util.Elements.Germanium;
-import com.example.alex.util.Elements.Gold;
-import com.example.alex.util.Elements.Hafnium;
-import com.example.alex.util.Elements.Helium;
-import com.example.alex.util.Elements.Holmium;
-import com.example.alex.util.Elements.Hydrogen;
-import com.example.alex.util.Elements.Indium;
-import com.example.alex.util.Elements.Iodine;
-import com.example.alex.util.Elements.Iridium;
-import com.example.alex.util.Elements.Iron;
-import com.example.alex.util.Elements.Krypton;
-import com.example.alex.util.Elements.Lanthanum;
-import com.example.alex.util.Elements.Lead;
-import com.example.alex.util.Elements.Lithium;
-import com.example.alex.util.Elements.Lutetium;
-import com.example.alex.util.Elements.Magnesium;
-import com.example.alex.util.Elements.Manganese;
-import com.example.alex.util.Elements.Mercury;
-import com.example.alex.util.Elements.Molybdenum;
-import com.example.alex.util.Elements.Neodymium;
-import com.example.alex.util.Elements.Neon;
-import com.example.alex.util.Elements.Nickel;
-import com.example.alex.util.Elements.Niobium;
-import com.example.alex.util.Elements.Nitrogen;
-import com.example.alex.util.Elements.Osmium;
-import com.example.alex.util.Elements.Oxygen;
-import com.example.alex.util.Elements.Palladium;
-import com.example.alex.util.Elements.Phosphorus;
-import com.example.alex.util.Elements.Platinum;
-import com.example.alex.util.Elements.Polonium;
-import com.example.alex.util.Elements.Potassium;
-import com.example.alex.util.Elements.Praseodymium;
-import com.example.alex.util.Elements.Promethium;
-import com.example.alex.util.Elements.Radium;
-import com.example.alex.util.Elements.Radon;
-import com.example.alex.util.Elements.Rhenium;
-import com.example.alex.util.Elements.Rhodium;
-import com.example.alex.util.Elements.Rubidium;
-import com.example.alex.util.Elements.Ruthenium;
-import com.example.alex.util.Elements.Samarium;
-import com.example.alex.util.Elements.Scandium;
-import com.example.alex.util.Elements.Selenium;
-import com.example.alex.util.Elements.Silicon;
-import com.example.alex.util.Elements.Silver;
-import com.example.alex.util.Elements.Sodium;
-import com.example.alex.util.Elements.Strontium;
-import com.example.alex.util.Elements.Sulfur;
-import com.example.alex.util.Elements.Tantalum;
-import com.example.alex.util.Elements.Technetium;
-import com.example.alex.util.Elements.Tellurium;
-import com.example.alex.util.Elements.Terbium;
-import com.example.alex.util.Elements.Thallium;
-import com.example.alex.util.Elements.Thulium;
-import com.example.alex.util.Elements.Tin;
-import com.example.alex.util.Elements.Titanium;
-import com.example.alex.util.Elements.Tungsten;
-import com.example.alex.util.Elements.Vanadium;
-import com.example.alex.util.Elements.Xenon;
-import com.example.alex.util.Elements.Ytterbium;
-import com.example.alex.util.Elements.Yttrium;
-import com.example.alex.util.Elements.Zinc;
-import com.example.alex.util.Elements.Zirconium;
+import android.nfc.tech.NfcA;
+import android.opengl.GLDebugHelper;
+import android.text.style.BulletSpan;
+
+import com.example.alex.util.Elements.*;
 
 /**
  * A utility class that holds all the atoms.
@@ -363,94 +280,94 @@ public class Elements_OLD {
 	public final static Radium RADIUM = new Radium();
 	
 	/** Actinium */
-	public final static Atom actinium = new Atom("Actinium", "Ac", 89, 227, false);
+	public final static Actinium ACTINIUM = new Actinium();
 	
 	/** Thorium */
-	public final static Atom thorium = new Atom("Thorium", "Th", 90, 232.04, false);
+	public final static Thorium THORIUM = new Thorium();
 	
 	/** Protactinium */
-	public final static Atom protactinium = new Atom("Protactinium", "Pa", 91, 231.04, false);
+	public final static Protactinium PROTACTINIUM = new Protactinium();
 	
 	/** Uranium */
-	public final static Atom uranium = new Atom("Uranium", "U", 92, 238.03, false);
+	public final static Uranium URANIUM = new Uranium();
 	
 	/** Neptunium */
-	public final static Atom neptunium = new Atom("Neptunium", "Np", 93, 237.05, false);
+	public final static Neptunium NEPTUNIUM = new Neptunium();
 	
 	/** Plutonium */
-	public final static Atom plutonium = new Atom("Plutonium", "Pu", 94, 244.06, false);
+	public final static Plutonium PLUTONIUM = new Plutonium();
 	
 	/** Americium */
-	public final static Atom americium = new Atom("Americium", "Am", 95, 243.06, false);
+	public final static Americium AMERICIUM = new Americium();
 	
 	/** Curium */
-	public final static Atom curium = new Atom("Curium", "Cm", 96, 247.07, false);
+	public final static Curium CURIUM = new Curium();
 	
 	/** Berkelium */
-	public final static Atom berkelium = new Atom("Berkelium", "Bk", 97, 247.07, false);
+	public final static Berkelium BERKELIUM = new Berkelium();
 	
 	/** Californium */
-	public final static Atom californium = new Atom("Californium", "Cf", 98, 251.08, false);
+	public final static Californium CALIFORNIUM = new Californium();
 	
 	/** Einsteinium */
-	public final static Atom einsteinium = new Atom("Einsteinium", "Es", 99, 252.08, false);
+	public final static Einsteinium EINSTEINIUM = new Einsteinium();
 	
 	/** Fermium */
-	public final static Atom fermium = new Atom("Fermium", "Fm", 100, 257.09, false);
+	public final static Fermium FERMIUM = new Fermium();
 	
 	/** Mendelevium */
-	public final static Atom mendelevium = new Atom("Mendelevium", "Md", 101, 258.10, false);
+	public final static Mendelevium MENDELEVIUM = new Mendelevium();
 	
 	/** Nobelium */
-	public final static Atom nobelium = new Atom("Nobelium", "No", 102, 259.10, false);
+	public final static Nobelium NOBELIUM = new Nobelium();
 	
 	/** Lawrencium */
-	public final static Atom lawrencium = new Atom("Lawrencium", "Lr", 103, 262.11, false);
+	public final static Lawrencium LAWRENCIUM = new Lawrencium();
 	
 	/** Rutherfordium */
-	public final static Atom rutherfordium = new Atom("Rutherfordium", "Rf", 104, 261.11, false);
+	public final static Rutherfordium RUTHERFORDIUM = new Rutherfordium();
 	
 	/** Dubnium */
-	public final static Atom dubnium = new Atom("Dubnium", "Db", 105, 262.11, false);
+	public final static Dubnium DUBNIUM = new Dubnium();
 	
 	/** Seaborgium */
-	public final static Atom seaborgium = new Atom("Seaborgium", "Sg", 106, 266.11, false);
+	public final static Seaborgium SEABORGIUM = new Seaborgium();
 	
 	/** Bohrium */
-	public final static Atom bohrium = new Atom("Bohrium", "Bh", 107, 264.12, false);
+	public final static Bohrium BOHRIUM = new Bohrium();
 	
 	/** Hassium */
-	public final static Atom hassium = new Atom("Hassium", "Hs", 108, 269.13, false);
+	public final static Hassium HASSIUM = new Hassium();
 	
 	/** Meitnerium */
-	public final static Atom meitnerium = new Atom("Meitnerium", "Mt", 109, 268.14, false);
+	public final static Meitnerium MEITNERIUM = new Meitnerium();
 	
 	/** Darmstadtium */
-	public final static Atom darmstadtium = new Atom("Darmstadrium", "Ds", 110, 271.15, false);
+	public final static Darmstadrium DARMSTADRIUM = new Darmstadrium();
 	
 	/** Roentgenium */
-	public final static Atom roentgenium = new Atom("Roentgenium", "Rg", 111, 272.15, false);
+	public final static Roentgenium ROENTGENIUM = new Roentgenium();
 	
 	/** Copernicium */
-	public final static Atom copernicium = new Atom("Copernicium", "Cn", 112, 277, false);
+	public final static Copernicium COPERNICIUM = new Copernicium();
 	
 	/** Nihonium */
-	public final static Atom nihonium = new Atom("Nihonium", "Nh", 113, 284, false);
+	public final static Nihonium NIHONIUM = new Nihonium();
 	
 	/** Flerovium */
-	public final static Atom flerovium = new Atom("Flerovium", "Fl", 114, 289, false);
+	public final static Flerovium FLEROVIUM = new Flerovium();
 	
 	/** Moscovium */
-	public final static Atom moscovium = new Atom("Moscovium", "Mc", 115, 288, false);
+	public final static Moscovium MOSCOVIUM = new Moscovium();
 	
 	/** Livermorium */
-	public final static Atom livermorium = new Atom("Livermorium", "Lv", 116, 289, false);
+	public final static Livermorium LIVERMORIUM = new Livermorium();
 
 	/** Tennessine */
-	public final static Atom tennessine = new Atom("Tennessine", "Ts", 117, 294, false);
+	public final static Tennessine TENNESSINE = new Tennessine();
 
 	/** Oganesson */
-	public final static Atom oganesson = new Atom("Oganesson", "Og", 118, 294, false);
+	public final static Oganesson OGANESSON = new Oganesson();
 
 	public Elements_OLD() {
 		allElements[HYDROGEN.NUMBER - 1] = HYDROGEN;
@@ -483,93 +400,93 @@ public class Elements_OLD {
 		allElements[NICKEL.NUMBER - 1] = NICKEL;
 		allElements[COPPER.NUMBER - 1] = COPPER;
 		allElements[ZINC.NUMBER - 1] = ZINC;
-		allElements[gallium.NUMBER - 1] = gallium;
-		allElements[germanium.NUMBER - 1] = germanium;
-		allElements[arsenic.NUMBER - 1] = arsenic;
-		allElements[selenium.NUMBER - 1] = selenium;
-		allElements[bromine.NUMBER - 1] = bromine;
-		allElements[krypton.NUMBER - 1] = krypton;
-		allElements[rubidium.NUMBER - 1] = rubidium;
-		allElements[strontium.NUMBER - 1] = strontium;
-		allElements[yttrium.NUMBER - 1] = yttrium;
-		allElements[zirconium.NUMBER - 1] = zirconium;
-		allElements[niobium.NUMBER - 1] = niobium;
-		allElements[molybdenum.NUMBER - 1] = molybdenum;
-		allElements[technetium.NUMBER - 1] = technetium;
-		allElements[ruthenium.NUMBER - 1] = ruthenium;
-		allElements[rhodium.NUMBER - 1] = rhodium;
-		allElements[palladium.NUMBER - 1] = palladium;
-		allElements[silver.NUMBER - 1] = silver;
-		allElements[cadmium.NUMBER - 1] = cadmium;
-		allElements[indium.NUMBER - 1] = indium;
-		allElements[tin.NUMBER - 1] = tin;
-		allElements[antimony.NUMBER - 1] = antimony;
-		allElements[tellurium.NUMBER - 1] = tellurium;
-		allElements[iodine.NUMBER - 1] = iodine;
-		allElements[xenon.NUMBER - 1] = xenon;
-		allElements[cesium.NUMBER - 1] = cesium;
-		allElements[barium.NUMBER - 1] = barium;
-		allElements[lanthanum.NUMBER - 1] = lanthanum;
-		allElements[cerium.NUMBER - 1] = cerium;
-		allElements[praesodymium.NUMBER - 1] = praesodymium;
-		allElements[neodymium.NUMBER - 1] = neodymium;
-		allElements[promethium.NUMBER - 1] = promethium;
-		allElements[samarium.NUMBER - 1] = samarium;
-		allElements[europium.NUMBER - 1] = europium;
-		allElements[gadolinium.NUMBER - 1] = gadolinium;
-		allElements[terbium.NUMBER - 1] = terbium;
-		allElements[dysprosium.NUMBER - 1] = dysprosium;
-		allElements[holmium.NUMBER - 1] = holmium;
-		allElements[erbium.NUMBER - 1] = erbium;
-		allElements[thulium.NUMBER - 1] = thulium;
-		allElements[ytterbium.NUMBER - 1] = ytterbium;
-		allElements[lutetium.NUMBER - 1] = lutetium;
-		allElements[hafnium.NUMBER - 1] = hafnium;
-		allElements[tantalum.NUMBER - 1] = tantalum;
-		allElements[tungsten.NUMBER - 1] = tungsten;
-		allElements[rhenium.NUMBER - 1] = rhenium;
-		allElements[osmium.NUMBER - 1] = osmium;
-		allElements[iridium.NUMBER - 1] = iridium;
-		allElements[platinum.NUMBER - 1] = platinum;
-		allElements[gold.NUMBER - 1] = gold;
-		allElements[mercury.NUMBER - 1] = mercury;
-		allElements[thallium.NUMBER - 1] = thallium;
-		allElements[lead.NUMBER - 1] = lead;
-		allElements[bismuth.NUMBER - 1] = bismuth;
-		allElements[polonium.NUMBER - 1] = polonium;
-		allElements[astatine.NUMBER - 1] = astatine;
-		allElements[radon.NUMBER - 1] = radon;
-		allElements[francium.NUMBER - 1] = francium;
-		allElements[radium.NUMBER - 1] = radium;
-		allElements[actinium.NUMBER - 1] = actinium;
-		allElements[thorium.NUMBER - 1] = thorium;
-		allElements[protactinium.NUMBER - 1] = protactinium;
-		allElements[uranium.NUMBER - 1] = uranium;
-		allElements[neptunium.NUMBER - 1] = neptunium;
-		allElements[plutonium.NUMBER - 1] = plutonium;
-		allElements[americium.NUMBER - 1] = americium;
-		allElements[curium.NUMBER - 1] = curium;
-		allElements[berkelium.NUMBER - 1] = berkelium;
-		allElements[californium.NUMBER - 1] = californium;
-		allElements[einsteinium.NUMBER - 1] = einsteinium;
-		allElements[fermium.NUMBER - 1] = fermium;
-		allElements[mendelevium.NUMBER - 1] = mendelevium;
-		allElements[nobelium.NUMBER - 1] = nobelium;
-		allElements[lawrencium.NUMBER - 1] = lawrencium;
-		allElements[rutherfordium.NUMBER - 1] = rutherfordium;
-		allElements[dubnium.NUMBER - 1] = dubnium;
-		allElements[seaborgium.NUMBER - 1] = seaborgium;
-		allElements[bohrium.NUMBER - 1] = bohrium;
-		allElements[hassium.NUMBER - 1] = hassium;
-		allElements[meitnerium.NUMBER - 1] = meitnerium;
-		allElements[darmstadtium.NUMBER - 1] = darmstadtium;
-		allElements[roentgenium.NUMBER - 1] = roentgenium;
-		allElements[copernicium.NUMBER - 1] = copernicium;
-		allElements[nihonium.NUMBER - 1] = nihonium;
-		allElements[flerovium.NUMBER - 1] = flerovium;
-		allElements[moscovium.NUMBER - 1] = moscovium;
-		allElements[livermorium.NUMBER - 1] = livermorium;
-		allElements[tennessine.NUMBER - 1] = tennessine;
-		allElements[oganesson.NUMBER - 1] = oganesson;
+		allElements[GALLIUM.NUMBER - 1] = GALLIUM;
+		allElements[GERMANIUM.NUMBER - 1] = GERMANIUM;
+		allElements[ARSENIC.NUMBER - 1] = ARSENIC;
+		allElements[SELENIUM.NUMBER - 1] = SELENIUM;
+		allElements[BROMINE.NUMBER - 1] = BROMINE;
+		allElements[KRYPTON.NUMBER - 1] = KRYPTON;
+		allElements[RUBIDIUM.NUMBER - 1] = RUBIDIUM;
+		allElements[STRONTIUM.NUMBER - 1] = STRONTIUM;
+		allElements[YTTRIUM.NUMBER - 1] = YTTRIUM;
+		allElements[ZIRCONIUM.NUMBER - 1] = ZIRCONIUM;
+		allElements[NIOBIUM.NUMBER - 1] = NIOBIUM;
+		allElements[MOLYBDENUM.NUMBER - 1] = MOLYBDENUM;
+		allElements[TECHNETIUM.NUMBER - 1] = TECHNETIUM;
+		allElements[RUTHENIUM.NUMBER - 1] = RUTHENIUM;
+		allElements[RHODIUM.NUMBER - 1] = RHODIUM;
+		allElements[PALLADIUM.NUMBER - 1] = PALLADIUM;
+		allElements[SILVER.NUMBER - 1] = SILVER;
+		allElements[CADMIUM.NUMBER - 1] = CADMIUM;
+		allElements[INDIUM.NUMBER - 1] = INDIUM;
+		allElements[TIN.NUMBER - 1] = TIN;
+		allElements[ANTIMONY.NUMBER - 1] = ANTIMONY;
+		allElements[TELLURIUM.NUMBER - 1] = TELLURIUM;
+		allElements[IODINE.NUMBER - 1] = IODINE;
+		allElements[XENON.NUMBER - 1] = XENON;
+		allElements[CESIUM.NUMBER - 1] = CESIUM;
+		allElements[BARIUM.NUMBER - 1] = BARIUM;
+		allElements[LANTHANUM.NUMBER - 1] = LANTHANUM;
+		allElements[CERIUM.NUMBER - 1] = CERIUM;
+		allElements[PRASEODYMIUM.NUMBER - 1] = PRASEODYMIUM;
+		allElements[NEODYMIUM.NUMBER - 1] = NEODYMIUM;
+		allElements[PROMETHIUM.NUMBER - 1] = PROMETHIUM;
+		allElements[SAMARIUM.NUMBER - 1] = SAMARIUM;
+		allElements[EUROPIUM.NUMBER - 1] = EUROPIUM;
+		allElements[GADOLINIUM.NUMBER - 1] = GADOLINIUM;
+		allElements[TERBIUM.NUMBER - 1] = TERBIUM;
+		allElements[DYSPROSIUM.NUMBER - 1] = DYSPROSIUM;
+		allElements[HOLMIUM.NUMBER - 1] = HOLMIUM;
+		allElements[ERBIUM.NUMBER - 1] = ERBIUM;
+		allElements[THULIUM.NUMBER - 1] = THULIUM;
+		allElements[YTTERBIUM.NUMBER - 1] = YTTERBIUM;
+		allElements[LUTETIUM.NUMBER - 1] = LUTETIUM;
+		allElements[HAFNIUM.NUMBER - 1] = HAFNIUM;
+		allElements[TANTALUM.NUMBER - 1] = TANTALUM;
+		allElements[TUNGSTEN.NUMBER - 1] = TUNGSTEN;
+		allElements[RHENIUM.NUMBER - 1] = RHENIUM;
+		allElements[OSMIUM.NUMBER - 1] = OSMIUM;
+		allElements[IRIDIUM.NUMBER - 1] = IRIDIUM;
+		allElements[PLATNIUM.NUMBER - 1] = PLATNIUM;
+		allElements[GOLD.NUMBER - 1] = GOLD;
+		allElements[MERCURY.NUMBER - 1] = MERCURY;
+		allElements[THALLIUM.NUMBER - 1] = THALLIUM;
+		allElements[LEAD.NUMBER - 1] = LEAD;
+		allElements[BISMUTH.NUMBER - 1] = BISMUTH;
+		allElements[POLONIUM.NUMBER - 1] = POLONIUM;
+		allElements[ASTATINE.NUMBER - 1] = ASTATINE;
+		allElements[RADON.NUMBER - 1] = RADON;
+		allElements[FRANCIUM.NUMBER - 1] = FRANCIUM;
+		allElements[RADIUM.NUMBER - 1] = RADIUM;
+		allElements[ACTINIUM.NUMBER - 1] = ACTINIUM;
+		allElements[THORIUM.NUMBER - 1] = THORIUM;
+		allElements[PROTACTINIUM.NUMBER - 1] = PROTACTINIUM;
+		allElements[URANIUM.NUMBER - 1] = URANIUM;
+		allElements[NEPTUNIUM.NUMBER - 1] = NEPTUNIUM;
+		allElements[PLUTONIUM.NUMBER - 1] = PLUTONIUM;
+		allElements[AMERICIUM.NUMBER - 1] = AMERICIUM;
+		allElements[CURIUM.NUMBER - 1] = CURIUM;
+		allElements[BERKELIUM.NUMBER - 1] = BERKELIUM;
+		allElements[CALIFORNIUM.NUMBER - 1] = CALIFORNIUM;
+		allElements[EINSTEINIUM.NUMBER - 1] = EINSTEINIUM;
+		allElements[FERMIUM.NUMBER - 1] = FERMIUM;
+		allElements[MENDELEVIUM.NUMBER - 1] = MENDELEVIUM;
+		allElements[NOBELIUM.NUMBER - 1] = NOBELIUM;
+		allElements[LAWRENCIUM.NUMBER - 1] = LAWRENCIUM;
+		allElements[RUTHERFORDIUM.NUMBER - 1] = RUTHENIUM;
+		allElements[DUBNIUM.NUMBER - 1] = DUBNIUM;
+		allElements[SEABORGIUM.NUMBER - 1] = SEABORGIUM;
+		allElements[BOHRIUM.NUMBER - 1] = BOHRIUM;
+		allElements[HASSIUM.NUMBER - 1] = HASSIUM;
+		allElements[MEITNERIUM.NUMBER - 1] = MEITNERIUM;
+		allElements[DARMSTADRIUM.NUMBER - 1] = DARMSTADRIUM;
+		allElements[ROENTGENIUM.NUMBER - 1] = ROENTGENIUM;
+		allElements[COPERNICIUM.NUMBER - 1] = COPERNICIUM;
+		allElements[NIHONIUM.NUMBER - 1] = NIHONIUM;
+		allElements[FLEROVIUM.NUMBER - 1] = FLEROVIUM;
+		allElements[MOSCOVIUM.NUMBER - 1] = MOSCOVIUM;
+		allElements[LIVERMORIUM.NUMBER - 1] = LIVERMORIUM;
+		allElements[TENNESSINE.NUMBER - 1] = TENNESSINE;
+		allElements[OGANESSON.NUMBER - 1] = OGANESSON;
 	}//end Elements_OLD()
 }//end class Atoms

@@ -9,7 +9,7 @@ import com.example.alex.util.Atom;
 public class Gallium extends Atom {
 
     public Gallium() {
-        super("Gallium", "Ge", 32, 72.59, false);
+        super("Gallium", "Ge", 31, 72.59, false);
     }//end Gallium()
 
 }//end Gallium
