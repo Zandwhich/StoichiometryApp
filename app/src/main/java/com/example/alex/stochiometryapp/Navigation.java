@@ -96,6 +96,9 @@ public class Navigation extends AppCompatActivity
         } else if (id == R.id.main_activity) {
             Intent intent = new Intent(this, MainActivity.class);
             startActivity(intent);
+        } else if (id == R.id.stochiometry_calculator) {
+            Intent intent = new Intent(this, StochiometryCalculator.class);
+            startActivity(intent);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
