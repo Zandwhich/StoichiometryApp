@@ -39,7 +39,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".StochiometryCalculator"></activity>
+        <activity
+            android:name=".StochiometryCalculator"
+            android:parentActivityName=".Navigation"
+            android:label="Stochiometry Calculator">
+
+        </activity>
     </application>
 
 </manifest>
