@@ -2,6 +2,8 @@ package com.example.alex.stochiometryapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
@@ -14,6 +16,7 @@ import java.util.List;
 public class StochiometryCalculator extends AppCompatActivity {
 
     Spinner fromSpinner;
+    Spinner toSpinner;
     Elements_OLD elements_OLD;
 
     @Override
@@ -23,6 +26,7 @@ public class StochiometryCalculator extends AppCompatActivity {
 
         elements_OLD = new Elements_OLD();
         fromSpinner = (Spinner) findViewById(R.id.from_spinner);
+        toSpinner = (Spinner) findViewById(R.id.to_spinner);
 
         List<String> elementNames = new ArrayList<String>();
 
@@ -35,6 +39,18 @@ public class StochiometryCalculator extends AppCompatActivity {
                 android.R.layout.simple_spinner_item, elementNames);
         dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         fromSpinner.setAdapter(dataAdapter);
+        toSpinner.setAdapter(dataAdapter);
 
+        fromSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
     }
 }

@@ -42,7 +42,7 @@
         <activity
             android:name=".StochiometryCalculator"
             android:parentActivityName=".Navigation"
-            android:label="Stochiometry Calculator">
+            android:label="Stoichiometry Calculator">
 
         </activity>
     </application>

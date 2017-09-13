@@ -22,7 +22,6 @@ public class ElementInfo extends AppCompatActivity {
         elementInfo = (TextView) findViewById(R.id.elementInfo);
 
         for (Atom element: Elements_OLD.allElements) {
-            System.out.println(element.NAME + ": " + element.NUMBER + "\n");
             if (element.NAME.equalsIgnoreCase(input)) {
                 elementInfo.setText(element.NAME);
                 break;

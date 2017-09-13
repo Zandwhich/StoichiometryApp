@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">StochiometryApp</string>
+    <string name="app_name">StoichiometryApp</string>
     <string name="elementChooser">Type in an element</string>
-    <string name="description">Please type in an element above, as it requests, like damn, didn\'t think I\'d have to explain this one to you.</string>
-    <string name="title_activity_navigation">Stochiometry App</string>
+    <string name="description">Please type in an element above.</string>
+    <string name="title_activity_navigation">Stoichiometry App</string>
     <string name="title_activity_main">Main Activity</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
